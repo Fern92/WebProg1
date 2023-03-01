@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/general_style.css">
+    <script src="./js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>E-Session</title>
+</head>
+<body>
+    <div class="wrapper">
+        <label for="Search">Search:</label>
+        <input type="text" id="Search" name="Search" placeholder="Search on e-Session">
+        <ul>
+            <li><a href="./index.htm">Home</a></li>
+            <li><a href="./Gallery.htm">Gallery</a></li>
+            <li  class="active"><a href="./e-Session.htm">e-Session</a></li>
+            <li><a href="./Contact.htm">Contact</a></li>
+        </ul>
+    </div>
+    <h1>This is the E-Session page</h1>
+    <h2>This is the e-session info</h2>
+    
+    <br><br>
+
+    <!-- <center><p id="demo">this is the demo id</p>
+    <button 
+    type=""
+    value=""
+    onclick="myfunction()">
+    Click me
+    </button>
+    </center> -->
+    <form action="">
+        <h2>Log-in</h2>
+        <div class="input-box">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="email" required>
+            <label for="Email">Email</label>
+        </div>
+        <div class="input-box">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input type="password" required>
+            <label for="Password">Password</label>
+        </div>
+        <div class="forget">
+            <a href="#">Forget Password</a>
+        </div>
+        <div class="remember">
+            <label for=""><input type="checkbox">Remember me</label>
+        </div>
+        <button>Log in</button>
+        <div class="register">
+            <p>Don't have an account?<a href="#">Register now</a></p>
+        </div>
+        <div class="sign">
+            <p>Or log in with:</p>
+            <div class="icons">
+                <ion-icon name="logo-google"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-apple"></ion-icon>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
