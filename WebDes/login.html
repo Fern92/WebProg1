@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/login.css">
+	<title>Log into your account</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <div class="menu-toggle"></div>
+            <ul class="list">
+                <li class="list-item   active" style="--color:#4E6E81"><a href="./login.html">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <span class="text">Account</span>
+                </a></li>
+                <li class="list-item" style="--color:#F9DBBB"><a href="./homepage.html">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a></li>
+                <li class="list-item" style="--color:#f44336"><a href="./about.html"> <!-- no about.html yet-->
+                    <span class="icon">
+                        <ion-icon name="information-outline"></ion-icon>
+                    </span>
+                    <span class="text">About</span>
+                </a></li>
+                <li class="list-item" style="--color:#ffa117"><a href="./gallery.html"> <!-- no gallery.html yet-->
+                    <span class="icon">
+                        <ion-icon name="images-outline"></ion-icon>
+                    </span>
+                    <span class="text">Gallery</span>
+                </a></li>
+                <li class="list-item" style="--color:#4D455D"><a href="./blog.html"> <!-- no blog.html yet-->
+                    <span class="icon">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </span>
+                    <span class="text">Blog</span>
+                </a></li>
+                <li class="list-item" style="--color:#E96479"><a href="./author.html"> <!-- no author.html yet-->
+                    <span class="icon">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </span>
+                    <span class="text">Author Profile</span>
+                </a></li>
+                <li class="list-item" style="--color:#0fc70f"><a href="./contact.html"> <!-- no contact.html yet-->
+                    <span class="icon">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <span class="text">Contact us</span>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+	<section>
+		<div class="form-box">
+			<div class="form-value">
+				<form action="">
+					<h2>Log-in</h2>
+					<div class="input-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+						<input type="email" required>
+						<label for="Email">Email</label>
+					</div>
+                    <div class="input-box">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+						<input type="password" required>
+						<label for="Password">Password</label>
+					</div>
+                    <div class="forget">
+                        <a href="#">Forget Password</a>
+                    </div>
+                    <div class="remember">
+                        <label for=""><input type="checkbox">Remember me</label>
+                    </div>
+                    <button>Log in</button>
+                    <div class="register">
+                        <p>Don't have an account?<a href="#">Register now</a></p>
+                    </div>
+                    <div class="sign">
+                        <p>Or log in with:</p>
+                        <div class="icons">
+                            <ion-icon name="logo-google"></ion-icon>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <ion-icon name="logo-apple"></ion-icon>
+                        </div>
+                    </div>
+				</form>
+			</div>
+		</div>
+	</section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
